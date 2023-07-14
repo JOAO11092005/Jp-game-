@@ -1,21 +1,26 @@
 @media (Max-Width:430px){
     body{
-        background-image: url(../img/fundo.png);
+        /* background-image: url(../img/fundo.png); */
+        background-image: none;
+        background-color: #314a69;
+        text-align: center;
         
     }
     .navegar .logo{
         display: block;
         /* padding: 10px; */
         text-align: center;
-        padding:;
+        height: 20px;
         
     }
     .navegar nav{
         float: none;
+        
+      
     }
     .navegar ul li{
         display: block;
-        padding: 20px;
+        padding: 5px;
         
         
     }
