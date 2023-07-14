@@ -12,6 +12,7 @@ body{
 }
 .navegar{
    background-color: #232F3E;
+  
     color: white;
     align-items: center;
     justify-content: center;
@@ -179,6 +180,10 @@ footer .seta{
     float: right;
     color: #232F3E;
 }
+footer .seta:hover{
+    color: black;
+}
+
 footer .seta:hover{
     color: black;
 }
