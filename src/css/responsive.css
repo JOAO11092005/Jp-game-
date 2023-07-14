@@ -1,8 +1,9 @@
 @media (Max-Width:430px){
     body{
-        /* background-image: url(../img/fundo.png); */
+        /* background-image: url(../img/fundo-celular.jpeg); */
         background-image: none;
-        background-color: #314a69;
+        /* background-color: #314a69; */
+        background-color: #385968bb;
         text-align: center;
         
     }
@@ -19,7 +20,7 @@
       
     }
     .navegar ul li{
-        display: block;
+        display: inline-block;
         padding: 5px;
         
         
@@ -46,15 +47,15 @@
     main .notebook .lenovo p{
         color: red;
     }
-    main .notebook .Acer img{
+    /* main .notebook .Acer img{
         margin-right: 150px;
-    } 
-    main .notebook .acer-p{
+    }  */
+    /* main .notebook .acer-p{
        
        margin-left: 150px;
        margin-top: 0px;
        margin-bottom: 150px;
-    }
+    } */
     main  .notebook .Legion-promocao{
         /* background-color: white; */
         
@@ -62,12 +63,12 @@
     main .notebook .Legion img{
         width: 130px;
         height: 130px;
-        margin-right: 150px;
+        /* margin-right: 150px; */
     }
-    main .notebook .legion-p{
+    /* main .notebook .legion-p{
         float: right;
         margin-right: 50px;
-    }
+    } */
     main .pc-avenda{
         background-color: white;
     }
@@ -75,7 +76,8 @@
         background-color: #232F3E;
      
      
-      height: 650px;
+      /* height: 650px; */
+      margin-top: 350px;
       /* margin-bottom: 50px; */
       display: inline-block;
       /* background-size: cover; */ 
@@ -84,15 +86,15 @@
         font-size: 40px;
        list-style: none;
        display: block;
-       margin-bottom: 300px;
+       margin-bottom: 30px;
        
     
     }
     footer .redes-social ul li{
-        padding: 10px;
-        display: block;
+        padding: 5px;
+        display: inline-block;
     }
 }
-    
+   
    
    
