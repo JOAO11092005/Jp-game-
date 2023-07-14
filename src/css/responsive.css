@@ -1,11 +1,13 @@
 @media (Max-Width:430px){
     body{
-        /* background-image: url(../img/fundo-celular.jpeg); */
-        background-image: none;
+        background-image: url(../img/loop\ video.gif);
+        /* background-image: none; */
         /* background-color: #314a69; */
         background-color: #385968bb;
         text-align: center;
-        
+        /* margin-bottom: 500px; */
+        /* height: 800px; */
+        background-repeat: repeat-y;
     }
     .navegar .logo{
         display: block;
@@ -32,6 +34,10 @@
        padding: 10px;
        text-decoration: underline;
     }
+    main .notebooks{
+        height: 800px;
+        margin-bottom: 800px;
+    }
     main .notebook p{
         /* display: inline-block; */
         /* width: 30%; */
@@ -50,12 +56,31 @@
     /* main .notebook .Acer img{
         margin-right: 150px;
     }  */
-    /* main .notebook .acer-p{
+    main .notebook .acer-p{
        
-       margin-left: 150px;
-       margin-top: 0px;
-       margin-bottom: 150px;
-    } */
+      background-color: #38596800;
+    }
+    main .notebook .lenovo-p{
+                    background-color: rgba(255, 255, 255, 0);
+    }
+    main .notebook .dell-p{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    main .notebook .acer-promocao{
+        background-color: rgba(255, 255, 255, 0.349);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }    
+    main .notebook .dell-promocao{
+        background-color: rgba(255, 255, 255, 0.349);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    main .notebook .lenovo-promocao{
+        background-color: rgba(255, 255, 255, 0.349);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
     main  .notebook .Legion-promocao{
         /* background-color: white; */
         
@@ -65,10 +90,14 @@
         height: 130px;
         /* margin-right: 150px; */
     }
-    /* main .notebook .legion-p{
-        float: right;
-        margin-right: 50px;
-    } */
+   main .notebook .Legion-promocao{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    
+   }
+    main .notebook .legion-p{
+        background-color: #38596800;
+    }
     main .pc-avenda{
         background-color: white;
     }
@@ -77,7 +106,7 @@
      
      
       /* height: 650px; */
-      margin-top: 350px;
+      /* margin-top: 350px; */
       /* margin-bottom: 50px; */
       display: inline-block;
       /* background-size: cover; */ 
@@ -86,7 +115,7 @@
         font-size: 40px;
        list-style: none;
        display: block;
-       margin-bottom: 30px;
+       /* margin-bottom: 30px; */
        
     
     }
