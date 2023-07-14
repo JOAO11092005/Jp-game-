@@ -43,6 +43,9 @@
         
         
     }
+    main .notebook .lenovo p{
+        color: red;
+    }
     main .notebook .Acer img{
         margin-right: 150px;
     } 
@@ -64,6 +67,9 @@
     main .notebook .legion-p{
         float: right;
         margin-right: 50px;
+    }
+    main .pc-avenda{
+        background-color: white;
     }
     footer{
         background-color: #232F3E;
@@ -87,6 +93,6 @@
         display: block;
     }
 }
-   
+    
    
    
