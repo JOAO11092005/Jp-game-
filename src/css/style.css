@@ -1,0 +1,186 @@
+body{
+    background-image: url(../img/fundo.png);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-color: white;
+    font-family: 'VT323', monospace;
+    height: 800px;
+    background-color: black;
+    
+}
+.navegar{
+   background-color: #232F3E;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.navegar .logo{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.navegar .logo img{
+    width: 250px;
+    height: 70px;
+    
+}
+.navegar nav{
+    float: right;
+    padding: 20px;
+}
+.navegar ul{
+    text-align: center;
+    padding: 20px;
+}
+.navegar nav ul{
+    /* display: inline-block; */
+    display: block;
+    padding: 5px;
+}
+.navegar ul li{
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+.navegar ul li a{
+    color: white;
+    text-decoration: none;
+   border: 2px solid blue;
+   padding: 5px;
+   
+}
+.navegar ul li a:hover{
+    background-color: blue;
+    padding: 5px;
+
+}
+main{
+   margin-bottom: 50px;
+    color: white;
+    margin: 50px;
+    text-align: justify;
+    font-family: 'VT323', monospace;  
+}
+
+main h3{
+    text-align: center;
+}
+
+main .lista-de-notebook{
+    text-align: center;
+    
+}
+main .notebook{
+    text-align: center;
+    list-style: none;
+    /* display: inline; */
+    
+    
+}
+main .notebook p{
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    margin-bottom: 10px;
+    bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding: 20px;
+    border-radius: 20px;
+    
+    
+}
+main .notebook a{
+    display: inline-block;
+    left: 20px;
+}
+
+
+main li{
+    display: inline;
+    padding: 20px;
+}
+main ul .Legion img{
+    width: 136px;
+    margin-bottom: 10px;
+} 
+footer{
+    background-color: #232F3E;
+   text-align: center;
+   line-height: 50px;
+  height: 230px;
+  width: 100%;
+
+ 
+}
+footer h4{
+    font-size: 20px;
+    color: white;
+}
+footer .redes-social{
+    
+    font-size: 40px;
+   list-style: none;
+   
+
+}
+footer .redes-social ul li{
+    display: inline-block;
+}
+footer .redes{
+    color: white;
+}
+
+footer .fa-youtube{
+    color: red;
+}
+footer .fa-youtube:active{
+    color: aqua;
+}
+footer .fa-youtube:hover{
+    color: white;
+}
+footer .fa-facebook-f{
+    color: rgb(46, 46, 206);
+}
+footer .fa-facebook-f:hover{
+    color: white;
+}
+footer .fa-instagram{
+    color: rgb(219, 48, 48);
+}
+footer .fa-instagram:hover{
+    color: white;
+}
+footer .fa-pinterest{
+    color: rgb(179, 18, 18);
+}
+footer .fa-pinterest:hover{
+    color: white;
+}
+footer .fa-github{
+    color: black;
+}
+footer .fa-github:hover{
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: rgb(46, 46, 206);
+}
+footer .fa-linkedin-in:hover{
+    color: white;
+}
+footer .seta{
+    float: right;
+    color: #232F3E;
+}
+footer .seta:hover{
+    color: black;
+}
+
+
