@@ -6,8 +6,11 @@
         background-color: #385968bb;
         text-align: center;
         /* margin-bottom: 500px; */
-        /* height: 800px; */
+        height: 2000px; 
         background-repeat: repeat-y;
+        /* background-size: cover;*/
+        background-position: center;
+        /* background-repeat: no-repeat; */ */
     }
     .navegar .logo{
         display: block;
