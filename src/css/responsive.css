@@ -1,4 +1,4 @@
-@media (Max-Width:580px){
+@media (Max-Width:430px){
     body{
         background-image: url(../img/fundo.png);
     }
@@ -6,6 +6,7 @@
         display: block;
         /* padding: 10px; */
         text-align: center;
+        padding:;
         
     }
     .navegar nav{
@@ -25,27 +26,42 @@
        text-decoration: underline;
     }
     main .notebook p{
-        display: inline-block;
+        /* display: inline-block; */
         /* width: 30%; */
         text-align: justify;
         padding: 10px;
         border-radius: 20px;
-       
-        
+        margin-left: 40px;
+        display: inline-block;
         background-color: rgba(255, 255, 255, 0.192);
         
+    }
+    main .notebook .acer-p{
+       
+        margin-left: 40px;
+    }
+    main .notebook .Legion img{
+        width: 130px;
+        height: 130px;
+    }
+    main .notebook .legion-p{
+        float: right;
+        margin-right: 80px;
     }
     footer{
         background-color: #232F3E;
      
-      
-      height: 510px;
-      display: block;
+     
+      height: 650px;
+      /* margin-bottom: 50px; */
+      display: inline-block;
+      /* background-size: cover; */ 
     }
     footer .redes-social{
         font-size: 40px;
        list-style: none;
        display: block;
+       margin-bottom: 300px;
        
     
     }
@@ -54,4 +70,5 @@
         display: block;
     }
 }
+   
    
