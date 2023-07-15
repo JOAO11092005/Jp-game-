@@ -1,12 +1,12 @@
 body{
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/Mountain\ [1920x1080].png);
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
     background-color: white;
     font-family: 'VT323', monospace;
-    height: 800px;
+    /* height: 2100px; */
     background-color: black;
     
 }
@@ -49,12 +49,12 @@ body{
     
     
 }
-.navegar ul li a{
+.navegar ul li a{ /* configurar no celular*/
     color: white;
     text-decoration: none;
-   border: 2px solid blue;
    padding: 5px;
-   
+    background-color: rgb(169, 169, 177); /*Auteração nesse codigo */
+    border-radius: 10px;
 }
 .navegar ul li a:hover{
     background-color: blue;
@@ -84,7 +84,53 @@ main .notebook{
     
     
 }
-main .notebook p{
+main .notebook .acer-promocao{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}    
+main .notebook .dell-promocao{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+main .notebook .Legion-promocao{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+main .notebook .lenovo-promocao{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+main .notebook a{
+    background-color: rgb(195, 196, 212);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+main .notebook a:hover{
+    background-color: blue;
+    color: white;
+}
+/* main .notebook p{
     display: inline-block;
     width: 30%;
     text-align: justify;
@@ -95,21 +141,25 @@ main .notebook p{
     border-radius: 20px;
     
     
-}
-main .notebook a{
+} */
+/* main .notebook li{
+    display: inline-block;
+    
+} */
+/* main .notebook a{
     display: inline-block;
     left: 20px;
-}
+} */
 
 
 main li{
-    display: inline;
-    padding: 20px;
+    /* display: inline;
+    padding: 20px; */
 }
-main ul .Legion img{
+/* main ul .Legion img{
     width: 136px;
     margin-bottom: 10px;
-} 
+}  */
 footer{
     background-color: #232F3E;
    text-align: center;
@@ -187,5 +237,7 @@ footer .seta:hover{
 footer .seta:hover{
     color: black;
 }
+
+
 
 
