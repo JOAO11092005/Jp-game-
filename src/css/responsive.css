@@ -6,11 +6,12 @@
         background-color: #385968bb;
         text-align: center;
         /* margin-bottom: 500px; */
-        height: 2000px; 
+        height: 2000px;
+        font-family: 'Ysabeau Infant', sans-serif; 
         background-repeat: repeat-y;
         /* background-size: cover;*/
         background-position: center;
-        /* background-repeat: no-repeat; */ */
+        /* background-repeat: no-repeat; */ 
     }
     .navegar .logo{
         display: block;
@@ -26,16 +27,19 @@
     }
     .navegar ul li{
         display: inline-block;
-        padding: 5px;
+        padding: 10px;
+        margin-top: 15px;
+        
         
         
     }
     .navegar ul li a{
         color: white;
         text-decoration: none;
-       border: 0px;
-       padding: 10px;
-       text-decoration: underline;
+       border: 1px solid ;
+       padding: 5px;
+       border-radius: 10px;
+       
     }
     main .notebooks{
         height: 800px;
@@ -108,7 +112,7 @@
         background-color: #232F3E;
      
      
-      /* height: 650px; */
+      height: 435px;
       /* margin-top: 350px; */
       /* margin-bottom: 50px; */
       display: inline-block;
@@ -117,14 +121,13 @@
     footer .redes-social{
         font-size: 40px;
        list-style: none;
-       display: block;
        /* margin-bottom: 30px; */
        
     
     }
     footer .redes-social ul li{
         padding: 5px;
-        display: inline-block;
+        display: block;
     }
 }
    
