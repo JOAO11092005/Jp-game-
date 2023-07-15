@@ -8,7 +8,7 @@
         /* margin-bottom: 500px; */
         height: 2000px;
         font-family: 'Ysabeau Infant', sans-serif; 
-        background-repeat: repeat-y;
+        /* background-repeat: repeat-y; */
         /* background-size: cover;*/
         background-position: center;
         /* background-repeat: no-repeat; */ 
@@ -49,7 +49,7 @@
         /* display: inline-block; */
         /* width: 30%; */
         text-align: justify;
-        padding: 10px;
+        padding: 20px;
         border-radius: 20px;
        
         display: inline-block;
@@ -69,6 +69,7 @@
     }
     main .notebook .lenovo-p{
                     background-color: rgba(255, 255, 255, 0);
+
     }
     main .notebook .dell-p{
         background-color: rgba(255, 255, 255, 0);
@@ -77,19 +78,34 @@
         background-color: rgba(255, 255, 255, 0.349);
         border-radius: 20px;
         margin-bottom: 20px;
+        padding: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }    
     main .notebook .dell-promocao{
         background-color: rgba(255, 255, 255, 0.349);
         border-radius: 20px;
         margin-bottom: 20px;
+        padding: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }
     main .notebook .lenovo-promocao{
         background-color: rgba(255, 255, 255, 0.349);
         border-radius: 20px;
         margin-bottom: 20px;
+        padding: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }
     main  .notebook .Legion-promocao{
         /* background-color: white; */
+        background-color: rgba(255, 255, 255, 0.349);
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
         
     }
     main .notebook .Legion img{
@@ -100,6 +116,7 @@
    main .notebook .Legion-promocao{
     background-color: rgba(255, 255, 255, 0.349);
     border-radius: 20px;
+    padding: 20px;
     
    }
     main .notebook .legion-p{
@@ -131,5 +148,8 @@
     }
 }
    
+   
+   
+
    
    
