@@ -3,10 +3,10 @@
         background-image: url(../img/loop\ video.gif);
         /* background-image: none; */
         /* background-color: #314a69; */
-        background-color: #385968bb;
+        background-color: #385968;
         text-align: center;
         /* margin-bottom: 500px; */
-        height: 2000px;
+        height: 2500px;
         font-family: 'Ysabeau Infant', sans-serif; 
         /* background-repeat: repeat-y; */
         /* background-size: cover;*/
@@ -53,7 +53,7 @@
         border-radius: 20px;
        
         display: inline-block;
-        background-color: rgba(255, 255, 255, 0.192);
+       
         
         
     }
@@ -120,7 +120,7 @@
     
    }
     main .notebook .legion-p{
-        background-color: #38596800;
+        
     }
     main .pc-avenda{
         background-color: white;
